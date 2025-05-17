@@ -1,17 +1,24 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>blog.masnuy</title>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	<style>
 		html {
-		  filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+		body {
+		background-color: #000;
+		color: #fff;
+		margin: 0 auto;
+		width: 70%;
+		font-family: monospace;
 		}
 	</style>
 </head>
 <body>
+  <div id="content">Loading...</div>
 
   <script>
     function renderMarkdown(response) {
@@ -28,6 +35,5 @@
     script.src = 'https://api.github.com/repos/nurwidhiyanto/blog.masnuy/contents/README.md?callback=renderMarkdown';
     document.head.appendChild(script);
   </script>
-
 </body>
 </html>
