@@ -5,19 +5,28 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>blog.masnuy</title>
 	<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+	<style>
+		html {
+		  filter: grayscale(100%);
+		}
+	</style>
 </head>
 <body>
 
   <script>
-    fetch('https://nurwidhiyanto.github.io/blog.masnuy/README.md')
-      .then(response => response.text())
-      .then(markdown => {
-        document.getElementById('content').innerHTML = marked.parse(markdown);
-      })
-      .catch(error => {
-        document.getElementById('content').innerHTML = "Failed to load markdown file.";
-        console.error(error);
-      });
+    function renderMarkdown(response) {
+      // Decode the Base64 encoded content
+      const markdown = atob(response.data.content);
+      // Convert Markdown to HTML
+      const html = marked.parse(markdown);
+      // Insert the HTML into the page
+      document.getElementById('content').innerHTML = html;
+    }
+
+    // Create a script tag to fetch the Markdown file via JSONP
+    const script = document.createElement('script');
+    script.src = 'https://api.github.com/repos/nurwidhiyanto/blog.masnuy/contents/README.md?callback=renderMarkdown';
+    document.head.appendChild(script);
   </script>
 
 </body>
