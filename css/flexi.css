@@ -1,3 +1,4 @@
+/* --- Base Layout --- */
 #main-menu { padding: 30px 2% 0; }
 #content { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; max-width: 1260px; margin: 5% auto; padding: 0 2%; }
 .posts { flex: 1 1 60%; }
@@ -7,10 +8,13 @@
 .post-title a { color: #333; }
 .post-title a:hover { border-bottom: 1px solid #CCC; text-decoration: none; }
 img { max-width: 100%; height: auto; }
+
+/* --- Responsive Layout --- */
 @media (max-width: 1350px) { .post { /* width: 29%; max post width */ } }
 @media (max-width: 1024px) { .posts { flex: 1 1 100%; } #sidebar { flex: 1 1 100%; padding-left: 0; margin-top: 2rem; } .post-title { font-size: 1.75rem; } }
 @media (max-width: 800px) { .posts { column-count: 2; } #main-menu { position: relative; } .logo { width: 100%; margin: 0; text-align: center; } #navigation { float: none; font-family: 'Hind', sans-serif; text-align: center; margin-top: 10px; } #navigation li { float: none; display: inline; line-height: 60px; margin: 0 2%; } #navigation li a { padding: 1%; font-size: 90%; } .single .post, .single .post-content, .single .post-head, .single .post-content p { width: 100%; margin: 0; padding: 0; } .single .post-head { padding-bottom: 15%; } .single .post-head .post-title { font-size: 200%; padding-bottom: 5%; } .single .post-title { font-size: 100%; text-align: center; padding: 5% 0; } }
 @media (max-width: 768px) { #content { flex-direction: column; padding: 0 1rem; } .post-title { font-size: 1.5rem; text-align: center; } .logo { width: 100%; text-align: center; float: none; } #navigation { text-align: center; float: none; } #navigation li { display: inline-block; margin: 0 5px; float: none; } #navigation li a { padding: 8px; font-size: 90%; } }
 @media (max-width: 480px) { body { font-size: 15px; } .post-title { font-size: 1.25rem; } #navigation li a { font-size: 80%; } }
 @media screen and (max-width: 376px) { .posts { column-count: 1; } }
+/* Portrait iPhone 5 */
 @media screen and (device-width: 320px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait) { /* Custom styles can go here */ }
