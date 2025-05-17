@@ -9,10 +9,14 @@
 <body>
 
   <script>
-    fetch('README.md')
+    fetch('https://nurwidhiyanto.github.io/blog.masnuy/README.md')
       .then(response => response.text())
       .then(markdown => {
         document.getElementById('content').innerHTML = marked.parse(markdown);
+      })
+      .catch(error => {
+        document.getElementById('content').innerHTML = "Failed to load markdown file.";
+        console.error(error);
       });
   </script>
 
