@@ -1,9 +1,9 @@
 /*
 
 Author: Achmad Nur Widhiyanto
-Description: Achmad Nur Widhiyanto - theme
+Description: theme for blog.masnuy.com
 url: http://blog.masnuy.com
-Version: 1.1 (white)
+Version: 2025
 
 */
 ::selection								{ background: rgba(251,246,35,0.5); color: #2b2b2b; }
@@ -143,43 +143,44 @@ column-count: ; column-gap: 30px;
 .post-content .post-img							{ display: none; }
 .post-content								{ margin: 0; }
 .post-content img							{ margin: 0 0 25px 0; }
-.post-content p						{ line-height: 1.75; font-size: 1rem; font-weight: 300; font-family: 'Roboto', sans-serif; font-family: 'Libre Baskerville'; }
-.caption						{ padding: 20px; }
-.post-footer						{  }
-.readmore						{ display: none; }
-.readmore a						{ padding: 12px 32px; border-radius: 3px; border: 1px solid #CCC; }
-.readmore a:hover					{ text-decoration: none; }
+.post-content p								{ line-height: 1.75; font-size: 1rem; font-weight: 300; font-family: 'Roboto', sans-serif; font-family: 'Libre Baskerville'; }
+.caption								{ padding: 20px; }
+.post-footer								{  }
+.readmore								{ display: none; }
+.readmore a								{ padding: 12px 32px; border-radius: 3px; border: 1px solid #CCC; }
+.readmore a:hover							{ text-decoration: none; }
 
 
 /* Single
 -----------------------------------------------------------------*/
-.single							{ width: 143% !important; padding: 0 ; margin: 0 auto; float: none; }
-.single .post-image					{ display: none; width: 100%; }
-.single .post-image img					{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
-.single .post-head					{ padding: 0; margin: 0; }
-.single .post-title					{ font-size: 290%; padding: 0 0 5% 0; }
+.single									{ width: 143% !important; padding: 0 ; margin: 0 auto; float: none; }
+.single .post-image							{ display: none; width: 100%; }
+.single .post-image img							{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
+.single .post-head							{ padding: 0; margin: 0; }
+.single .post-title							{ font-size: 290%; padding: 0 0 5% 0; }
 
-.single .post-meta					{ position: absolute; line-height: 230%; color: #999; text-align: left; }
+.single .post-meta							{ position: absolute; line-height: 230%; color: #999; text-align: left; }
 .single .post-meta time,
 .single .post-labels a,
-.single p a						{ display: block; color: #333; font-size: 120%; line-height: 170%; font-family: 'Libre Baskerville'; }
-.single .post-meta .meta-author				{ display: none; }
+.single p a								{ display: block; color: #333; font-size: 120%; line-height: 170%; font-family: 'Libre Baskerville'; }
+.single .post-meta .meta-author						{ display: none; }
 
-.single .post-content					{ padding: 0 0 0 25%; }
-.single img						{ width: 100%; }
-.single img.big-img					{ width: calc(100% + 66%); margin-left: -33%; margin-right: -33%; }
+.single .post-content							{ padding: 0 0 0 25%; }
+.single img								{ width: 100%; }
+.single img.big-img							{ width: calc(100% + 66%); margin-left: -33%; margin-right: -33%; }
 
-.single .post-content p					{ margin: 0 0 5% 0; padding: ; }
+.single .post-content p							{ margin: 0 0 5% 0; padding: ; }
 
-.single .post-labels p					{  }
+.single .post-labels p							{  }
 
 
 
-/* single photo */
-#single .photo						{  }
-#single .photo .post-image				{ max-width: 960px; margin: 0 auto; }
-#single .post .post-container .post-image img		{ width: 100% !important; }
-#single .photo .caption					{ width: 600px; margin: 0 auto; padding: 30px 0; }
+/* single photo
+-------------------------------*/
+#single .photo								{  }
+#single .photo .post-image						{ max-width: 960px; margin: 0 auto; }
+#single .post .post-container .post-image img				{ width: 100% !important; }
+#single .photo .caption							{ width: 600px; margin: 0 auto; padding: 30px 0; }
 #single .photo .caption p {
     color: #7F8C8D;
     font-size: 20px;
@@ -188,44 +189,46 @@ column-count: ; column-gap: 30px;
     line-height: 34px;
 }
 
-/* Comment */
-#comments						{ margin: 0 0 0 25%; }
-.comment						{  }
-.h3-comment						{ text-align: center; }
-.h3-comment a						{ color: #000; }
-.add-comment						{ display: none; }
-#comments-block						{ margin: 0 0 50px 0  !important; }
-#comments-block ul li					{ margin: 0 0 25px 0; padding: 0 0 0 60px; position: relative; }
-.comment-author em					{ display: none; }
-#comments-block .avatar-image-container			{ left: 0; border-radius: 999px; }
-.comment-timestamp					{ font-size: 70%; }
-.comment-timestamp a					{ color: #999; }
-.comment-body						{ line-height: 1.7; margin-top: 5px; }
-h3#respond						{ text-align: center; margin: 0 0 10px 0; }
-.comment-guide						{ display: none; }
-.blogger-comment-from-post				{ min-height: 300px; }
+/* Comment
+-------------------------------*/
+#comments								{ margin: 0 0 0 25%; }
+.comment								{  }
+.h3-comment								{ text-align: center; }
+.h3-comment a								{ color: #000; }
+.add-comment								{ display: none; }
+#comments-block								{ margin: 0 0 50px 0  !important; }
+#comments-block ul li							{ margin: 0 0 25px 0; padding: 0 0 0 60px; position: relative; }
+.comment-author em							{ display: none; }
+#comments-block .avatar-image-container					{ left: 0; border-radius: 999px; }
+.comment-timestamp							{ font-size: 70%; }
+.comment-timestamp a							{ color: #999; }
+.comment-body								{ line-height: 1.7; margin-top: 5px; }
+h3#respond								{ text-align: center; margin: 0 0 10px 0; }
+.comment-guide								{ display: none; }
+.blogger-comment-from-post						{ min-height: 300px; }
 
-/* single2 */
-#single2						{  }
-#single2 .post						{ width: 50%; }
-.s2comment-container					{ height: 500px; }
+/* single2
+-------------------------------*/
+#single2								{  }
+#single2 .post								{ width: 50%; }
+.s2comment-container							{ height: 500px; }
 
 /* page
 -------------------------------*/
-#page							{ width: 100%; margin: 0 auto; }
+#page									{ width: 100%; margin: 0 auto; }
 
-.about-p						{  }
-#awesome_video						{ position: absolute; top: 60px; left: 0; width: 100%; }
+.about-p								{  }
+#awesome_video								{ position: absolute; top: 60px; left: 0; width: 100%; }
 
-#h-title						{ width: 1200px; padding: 100px 0 0 0; margin: 0 auto; }
-#h-title a						{ color: #FFF; }
-#h-title h1						{ font-size: 500%; }
-#h-title h1 a						{ background: #262626; padding: 5px; }
-#h-title h1 a:hover					{ text-decoration: none; }
-#h-title p						{ margin: 10px 0 0 0; font-size: 16px; line-height: 24px; }
-#h-title p span						{ background: #262626; padding: 1px 5px; }
+#h-title								{ width: 1200px; padding: 100px 0 0 0; margin: 0 auto; }
+#h-title a								{ color: #FFF; }
+#h-title h1								{ font-size: 500%; }
+#h-title h1 a								{ background: #262626; padding: 5px; }
+#h-title h1 a:hover							{ text-decoration: none; }
+#h-title p								{ margin: 10px 0 0 0; font-size: 16px; line-height: 24px; }
+#h-title p span								{ background: #262626; padding: 1px 5px; }
 
 /* footer
 ------------------------------------------------------------------------------------*/
-#footer							{ display: none; width: 100%; margin: 20px auto; }
-#copy p							{ text-align: center; }
+#footer									{ display: none; width: 100%; margin: 20px auto; }
+#copy p									{ text-align: center; }

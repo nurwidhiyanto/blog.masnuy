@@ -1,30 +1,30 @@
 /*
 
 Author: Achmad Nur Widhiyanto
-Description: Achmad Nur Widhiyanto - theme
-url: http://blog.masnuy.com
-Version: 1.1 (white)
+Description: masnuy.com - theme
+url: http://masnuy.com
+Version: 2025
 
 */
-::selection								{ background: rgba(251,246,35,0.5); color: #2b2b2b; }
+::selection	    							{ background: rgba(251,246,35,0.5); color: #2b2b2b; }
 ::-moz-selection							{ background: rgba(251,246,35,0.5); color: #000; }
-*									{ margin: 0; padding: 0; }
+*							        		{ margin: 0; padding: 0; }
 /*
-html *									{ -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; transition: all .3s ease-out; }
+html *						    			{ -webkit-transition: all .3s ease-out; -moz-transition: all .3s ease-out; transition: all .3s ease-out; }
 */
-body:before								{ content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 5px; z-index: 100; }
-body									{ background: #FFF; color: #333; line-height: 1em; font: 14px/130% "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif; }
-ul									{ list-style: none; }
-a									{ color: #4F6367; text-decoration: none; outline: none; }
-a:hover									{ text-decoration: underline; cursor: pointer; }
-h1, h2									{ word-wrap: break-word; line-height: normal; /* font-family: Georgia, Times, "Times New Roman", serif; */ }
-h3									{ color: #404040; padding: 15px 0 0.3em; }
-p									{ margin: 0 0 10px; }
-b                                   { font-weight: bold; }
-hr									{ border: none; border-bottom: 1px solid #DDE0E3; height: 1px; margin: 20px 0; width: 100%; }
-blockquote								{ margin: 0 0 21px 0; padding: 5px 0 5px 20px; font: italic 14px/21px Georgia, "Times New Roman", Times, serif; }
-img									{ vertical-align: middle; }
-h1, h2, h3, h4, h5, h6							{ color: #262626; }
+body:before					    			{ content: ""; position: fixed; top: 0; left: 0; width: 100%; height: 5px; z-index: 100; }
+body						    			{ background: #FFF; color: #333; line-height: 1em; font: 14px/130% "Trebuchet MS", Verdana, Geneva, Arial, Helvetica, sans-serif; }
+ul						        			{ list-style: none; }
+a							        		{ color: #4F6367; text-decoration: none; outline: none; }
+a:hover						    			{ text-decoration: underline; cursor: pointer; }
+h1, h2						    			{ word-wrap: break-word; line-height: normal; /* font-family: Georgia, Times, "Times New Roman", serif; */ }
+h3							        		{ color: #404040; padding: 15px 0 0.3em; }
+p							        		{ margin: 0 0 10px; }
+b                                           { font-weight: bold; }
+hr							        		{ border: none; border-bottom: 1px solid #DDE0E3; height: 1px; margin: 20px 0; width: 100%; }
+blockquote					    			{ margin: 0 0 21px 0; padding: 5px 0 5px 20px; font: italic 14px/21px Georgia, "Times New Roman", Times, serif; }
+img								        	{ vertical-align: middle; }
+h1, h2, h3, h4, h5, h6						{ color: #262626; }
 #navigation:before,
 #navigation:after,
 #wmain-menu:before,
@@ -32,27 +32,27 @@ h1, h2, h3, h4, h5, h6							{ color: #262626; }
 
 
 /* css Uyeee! ------------------------------------------------------------------------------------*/
-#navbar									{ display: none; }
-#wrapper								{ width: 100%; z-index: 999; margin: 64px auto; position: relative; }
-#content								{ margin: 5% auto; width: 100%; max-width: 1260px; }
+#navbar									    { display: none; }
+#wrapper								    { width: 100%; z-index: 999; margin: 64px auto; position: relative; }
+#content							    	{ margin: 5% auto; width: 100%; max-width: 1260px; }
 
 
 /* menu */
-#main-menu								{ padding: 30px 0 0; margin: 0 auto; background: rgba(255,255,255,.9); aposition: fixed; top: 0; z-index: 999; width: 100%; max-width: 1260px; }
-#wmain-menu								{ width: 100%; }
-#navigation								{ float: left; font-family: 'Hind', sans-serif; }
+#main-menu							    	{ padding: 30px 0 0; margin: 0 auto; background: rgba(255,255,255,.9); aposition: fixed; top: 0; z-index: 999; width: 100%; max-width: 1260px; }
+#wmain-menu						    		{ width: 100%; }
+#navigation							    	{ float: left; font-family: 'Hind', sans-serif; }
 #navigation li								{ float: left; line-height: 60px; margin-right:; }
-#navigation li:after							{ content: "/"; color: #CCC; }
-#navigation li:last-child:after						{ content: " "; }
+#navigation li:after						{ content: "/"; color: #CCC; }
+#navigation li:last-child:after				{ content: " "; }
 #navigation li a							{ font-weight: 700; color: #696969; padding: 20px; }
-#navigation li a:hover							{ text-decoration: none; color: #FF7474; }
-.logo									{ font-size: 2em; line-height: 60px; margin: 0 3% 0 0; float: left; font-family: 'Montserrat', sans-serif; }
-.logo a									{ color: #333 !important; font-weight: 700 !important; }
+#navigation li a:hover						{ text-decoration: none; color: #FF7474; }
+.logo							    		{ font-size: 2em; line-height: 60px; margin: 0 3% 0 0; float: left; font-family: 'Montserrat', sans-serif; }
+.logo a								    	{ color: #333 !important; font-weight: 700 !important; }
 .logo a:hover								{ text-decoration: none; }
-.logo span								{ opacity: 0.2; font-weight: 200; }
-.search-top								{ float: right !important; display: none !important; }
+.logo span								    { opacity: 0.2; font-weight: 200; }
+.search-top								    { float: right !important; display: none !important; }
 .search-top input							{ width: 90%; padding: 5%; border-radius: 3px; border: none; background: rgba(255,255,255,.1); }
-.search-top input:focus							{ border-color: none; outline: none; outline-color: none; outline-style: none; outline-width: none; }
+.search-top input:focus						{ border-color: none; outline: none; outline-color: none; outline-style: none; outline-width: none; }
 
 /* css Uyeee!
 ------------------------------------------------------------------------------------*/
@@ -66,18 +66,18 @@ h1, h2, h3, h4, h5, h6							{ color: #262626; }
 }
 /* menu
 ------------------------------------------------------------------------------------*/
-#main-menu								{ padding: 30px 2% 0;
+#main-menu								    { padding: 30px 2% 0;
 	margin: 0 auto;
 	background: rgba(255,255,255,.9);
 	aposition: fixed; top: 0; z-index: 999; width: 100%; max-width: 1260px; }
-#wmain-menu								{ width: 100%; }
+#wmain-menu								    { width: 100%; }
 
-#navigation								{ float: left; font-family: 'Hind', sans-serif; }
+#navigation								    { float: left; font-family: 'Hind', sans-serif; }
 #navigation li								{ float: left; line-height: 60px; margin-right:; }
-#navigation li:after							{ content: "/"; color: #CCC; }
-#navigation li:last-child:after						{ content: " "; }
+#navigation li:after						{ content: "/"; color: #CCC; }
+#navigation li:last-child:after				{ content: " "; }
 #navigation li a							{ font-weight: 700; color: #696969; padding: 20px; }
-#navigation li a:hover							{ text-decoration: none; color: #FF7474; }
+#navigation li a:hover						{ text-decoration: none; color: #FF7474; }
 
 /* Content
 ------------------------------------------------------------------------------------*/
