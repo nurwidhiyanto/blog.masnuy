@@ -149,7 +149,7 @@ input:focus								{ border-color: #AFB0BB; }
 .posts									{ }
 .post									{ margin-bottom: 5rem; }
 .post:first-child							{ margin-bottom: 20%; }
-#content-box .post:first-child .post-title				{ font-size: 300%; line-height: 120%; font-weight: 400; }
+.post:first-child .post-title						{ font-size: 300%; line-height: 120%; font-weight: 400; }
 #content-box .post:first-child .post-title a:hover			{  }
 
 
@@ -188,7 +188,7 @@ input:focus								{ border-color: #AFB0BB; }
 .single .post-image							{ display: none; width: 100%; }
 .single .post-image img							{ width: calc(100% + 26.7%); width: calc(100% + 20%); margin-left: 0; }
 .single .post-head							{ margin: 0; }
-.single .post-title							{ font-size: 290%; padding: 0 0 5% 0; }
+.single .post-title							{ padding: 0 0 5% 0; }
 
 .single .post-meta							{ position: absolute; line-height: 230%; text-align: left; }
 .single .post-meta time,
