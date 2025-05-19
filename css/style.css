@@ -147,8 +147,8 @@ input:focus								{ border-color: #AFB0BB; }
 /* posts // post
 -----------------------------*/
 .posts									{ }
-.post									{ margin: 0 0 10%; }
-.post:first-child							{ margin-bottom: 2rem; }
+.post									{ margin-bottom: 5rem; }
+.post:first-child							{ margin-bottom: 20%; }
 #content-box .post:first-child .post-title				{ font-size: 300%; line-height: 120%; font-weight: 400; }
 #content-box .post:first-child .post-title a:hover			{  }
 
