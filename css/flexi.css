@@ -3,8 +3,6 @@
 #content { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 2rem; }
 .posts { flex: 1 1 65%; }
 #sidebar { flex: 1 1 30%; padding-left: 2%; }
-.post { margin-bottom: 2rem; }
-.post-title { font-size: 2rem; font-family: 'Libre Baskerville', serif; font-weight: 400; padding-bottom: 1rem; text-align: left; }
 
 img { max-width: 100%; height: auto; }
 
@@ -21,17 +19,23 @@ img { max-width: 100%; height: auto; }
         .post-title { font-size: 1.75rem; }
 }
 @media (max-width: 800px) {
+        #content { margin: 0 auto; padding: 0 4%; }
         .posts { column-count: 1; width: 100%; }
         #sidebar { flex: 1 1 100%; width: 100%; } 
         #main-menu { position: relative; width: 90%; padding: 30px 5% 30px; }
         .logo { width: 100%; margin: 0; text-align: left; }
         #navigation { float: none; font-family: 'Hind', sans-serif; text-align: left; margin-top: 10px; }
-        #navigation li { float: none; display: inline; line-height: 60px; margin: 0 2%; }
-        #navigation li a { padding: 1%; font-size: 90%; }
+        #navigation li { float: none; display: inline; line-height: 60px; margin: 0; }
+        #navigation li a { padding: 0 10px; font-size: 90%; }
+        #navigation li:first-child a { padding: 0 10px 0 0; font-size: 90%; }
         .single .post, .single .post-content, .single .post-head, .single .post-content p { width: 100%; margin: 0; padding: 0; }
-        .single .post-head { padding-bottom: 15%; }
-        .single .post-head .post-title { font-size: 200%; padding-bottom: 5%; }
-        .single .post-title { font-size: 100%; text-align: left; padding: 5% 0; }
+        .single .post-head { padding-bottom: 10%; }
+        .single .post-title { font-size: 2.5em; text-align: left; padding: 0 0 2% 0; }
+        .single .post-meta { position: relative; }
+        .single .post-meta time, .single .post-labels a, .single p a { display: inline; }
+        #comments { margin: 0; }
+        #comments-block ul li { padding: 0; }
+        #comments-block .avatar-image-container	{ display: none; }
 }
 @media (max-width: 768px) {
         #content { flex-direction: column; padding: 0 5%; width: 90%; }
