@@ -67,7 +67,7 @@ blockquote										{ background-color: var(--bgi); }
 /* Borders
 ------------------------------------------------------------------------------------*/
 /* --gray-200 */
-input, textarea, select									{ border: 1px solid var(--gray-200); }
+input, textarea, select, .blogger-comment-from-post					{ border: 1px solid var(--gray-200); }
 blockquote										{ border-left: 4px solid var(--gray-200); }
 /* --slash */
 hr											{ border-color: var(--slash); }
